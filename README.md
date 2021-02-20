@@ -17,7 +17,7 @@
 </h4>
 <img src="https://github.com/carlosdotdev/neo01/blob/master/pics/pic02.jpg">
 <img src="https://github.com/carlosdotdev/neo01/blob/master/pics/pic01.jpg">
-<h4>Além, é claro, de métodos que atendiam o meu requisito, retornava um valor não confiável e a IDE os apontava como métodos descontinuados do GregorianCalendar na JDK que eu uso, e aconselhava o uso da class Calendar para o serviço.</h4>
+<h4>Além, é claro, de métodos que atendiam o meu requisito, mas retornava um valor não confiável e a IDE os apontava como métodos descontinuados do GregorianCalendar na JDK que eu uso, e aconselhava o uso da class Calendar para o serviço.</h4>
 <img src="https://github.com/carlosdotdev/neo01/blob/master/pics/pic03.jpg">
 <h4>Optei por usar no lugar, a class Calendar.</h4>
 
