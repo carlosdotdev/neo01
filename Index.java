@@ -28,18 +28,18 @@ class RelogioAnalogico {
         return this.angulo;
     }
 
+    public void exibiAngulo() {
+        System.out.println(this.formataParaGrau(this.angulo));
+    }
+
     // Função que retorna uma expressão que calcula o angulo | Â = 30h-6m
     private double calculaAngulo(int hora, int minuto) {
         return ((30 * hora) + (-6 * minuto));
     }
 
     // Função que retorna o angulo formatado
-    public String formataParaGrau(double angulo) {
+    private String formataParaGrau(double angulo) {
         return angulo + "°";
-    }
-
-    public void ExibiAngulo() {
-        System.out.println(this.formataParaGrau(this.angulo));
     }
 }
 
@@ -48,6 +48,6 @@ public class Index {
         RelogioAnalogico relogio = new RelogioAnalogico();
 
         // relogio.configuraAnguloRelogio(12, 30);
-        relogio.ExibiAngulo();
+        relogio.exibiAngulo();
     }
 }
