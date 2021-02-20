@@ -30,7 +30,7 @@ class RelogioAnalogico {
 
     // Função que retorna uma expressão que calcula o angulo | Â = 30h-6m
     private double calculaAngulo(int hora, int minuto) {
-        return ((30 * hora) + (-5.5 * minuto));
+        return ((30 * hora) + (-6 * minuto));
     }
 
     // Função que retorna o angulo formatado
@@ -47,7 +47,7 @@ public class Index {
     public static void main(String[] args) {
         RelogioAnalogico relogio = new RelogioAnalogico();
 
-        relogio.configuraAnguloRelogio(12, 30);
+        // relogio.configuraAnguloRelogio(12, 30);
         relogio.ExibiAngulo();
     }
 }
