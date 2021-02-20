@@ -1,4 +1,4 @@
-<h1 align="center"> Avaliação Proficiência - Área Técnica - Neomind</h1>
+<h1 align="center"> Avaliação De Proficiência - Área Técnica - Neomind</h1>
 
 <h3>O Problema:</h3>
 <h3> Escreva um programa onde, dado um determinado horário, ele seja capaz de calcular o ângulo entre os 2 ponteiros do relógio.</h3>
