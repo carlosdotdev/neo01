@@ -6,7 +6,8 @@
 <h4>Ao iniciar o processo de elaboração, me deparo com a seguinte situação::</h4>
 <img src="https://github.com/carlosdotdev/neo01/blob/master/pics/pic06.jpg">
 
-00:15 é diferente de 45.
+<h6>00h:15m != 45°.</h6>
+<h6>45° == 0.125 == 00h:07m:500ms</h6>
 <img src="https://github.com/carlosdotdev/neo01/blob/master/pics/pic05.jpg">
 
 <h4>Fiquei durante um tempo tentando entender. Por que usar a tipagem long? Sendo que, para obter o ângulo, só hora e minuto já serve e ambos não chegam a ser tão extensos a ponto de precisar de um endereço de memória tão espaçoso assim.
@@ -28,5 +29,5 @@
 <h4>OBS2: Quando dado uma determinada hora; por exemplo: 12:30. O ângulo não será exatamente 180°, pois a cada 60min, o ponteiro de hora se desloca 30°. Nesse exemplo, se deslocando 15°
 .</h4>
 <h4>Resultando em: 165°.</h4>
-<h4>Para obter essa precisão citada acima, mude o valor dentro do método calculaAngulo, de -6 para -5.5
+<h4>Para obter essa precisão citada a cima, mude o valor dentro do método calculaAngulo, de -6 para -5.5
 .</h4>
